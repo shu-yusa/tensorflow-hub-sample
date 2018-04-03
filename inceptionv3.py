@@ -1,8 +1,8 @@
 import tensorflow as tf
 import tensorflow_hub as hub
 import numpy as np
-from tensorflow.official.mnist import dataset
 
+tf.logging.set_verbosity(tf.logging.INFO)
 
 def inceptionv3_model_fn(features, labels, mode):
     # Load Inception-v3 model.
