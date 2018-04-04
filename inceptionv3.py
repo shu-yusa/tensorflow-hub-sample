@@ -86,7 +86,7 @@ def main(unused_argv):
         # Train network.
         classifier.train(
             input_fn=train_input_fn,
-            steps=10,
+            steps=500,
             hooks=[logging_hook])
 
         # Evaluate the model and print results.

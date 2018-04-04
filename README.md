@@ -18,7 +18,7 @@ python inceptionv3.py
 ```
 
 ## Tensorboard
-Log files are output in `/tmp/convnet`. You can check the result with `tensorboard`.
+Log files are output in `/tmp/convnet_model`. You can check the result with `tensorboard`.
 ```bash
-tensorboard --logdir=/tmp/convnet
+tensorboard --logdir=/tmp/convnet_model
 ```
